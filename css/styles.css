@@ -51,3 +51,8 @@ h1{
     font-family: "Montserrat-Light";
 
 }
+
+/* Download button */
+.download{
+    margin: 5% 3% 5% 0;
+}
