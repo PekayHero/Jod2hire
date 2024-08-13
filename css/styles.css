@@ -15,7 +15,7 @@ body{
 
 h1{
     font-family: "Montserrat";
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     width: 60%;
     font-weight: 900;
@@ -24,9 +24,22 @@ h1{
     
 }
 
-/* img{
-    transform: skew(-0.06turn, 18deg);
-} */
+.features_h3{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.features_p{
+    color: #8f8f8f;
+    width: 57%;
+}
+
+/* Title image */
+.title_image{
+    width:40%;
+    transform: rotate(18deg);
+} 
 
 
 /* Navigation bar */
@@ -55,4 +68,27 @@ h1{
 /* Download button */
 .download{
     margin: 5% 3% 5% 0;
+}
+
+
+/* Testimonials section */
+
+/* #testimonials{
+    padding: ;
+} */
+
+
+/* Features for the carrousel */
+#features{
+    padding: 8.5rem 23rem;
+
+}
+
+.section{
+    display: inline-block;
+    margin: 18px ;
+}
+
+.fa-solid fa-circle-check:hover{
+    color:#ff4c68 !important;
 }
