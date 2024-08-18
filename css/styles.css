@@ -11,7 +11,8 @@ body{
 
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
+
     }
 
 
@@ -19,8 +20,8 @@ h1{
     font-family: "Montserrat";
     font-size: 3.5rem;
     line-height: 1.5;
-    width: 75%;
-    font-weight: 600;
+    width: 90%;
+    font-weight: 900;
     font-style: normal;
     color: whitesmoke;
     padding-right:100px; 
@@ -48,8 +49,10 @@ h2{
 
 /* Title image */
 .title_image{
-    width:40%;
     transform: rotate(18deg);
+    position: absolute;
+    z-index: 0;
+    left: 60%;
 
     
 } 
@@ -93,8 +96,9 @@ h2{
 /* Features for the carrousel */
 #features{
     padding: 7% 15%; 
-    /* position: absolute; */
+    position: relative; 
     z-index: 1;
+    background-color: #fff;
     /* margin-top: 80; */
 
 }
@@ -157,5 +161,41 @@ h2{
 
 .pricing-column{
     padding:3% 2%
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+
+    
+}
+.ddb{
+    background-color: #fff;
+}
+
+.cta-h3{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #fff;
+    font-size: 6em;
+}
+
+#footer{
+    text-align: center;
+    padding: 5% 10%;
+}
+
+@media (max-width:1247px){
+    #title{
+        text-align: center;
+    }
+
+
+    .title_image{
+        position: static;
+        transform: rotate(0);
+    }
 }
 
