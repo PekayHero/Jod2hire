@@ -177,14 +177,17 @@ h2{
 .cta-h3{
     font-family: "Montserrat";
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 4.5rem;
     color: #fff;
-    font-size: 6em;
 }
 
 #footer{
     text-align: center;
     padding: 5% 10%;
+}
+
+.social-icons{
+    margin: 7px;
 }
 
 @media (max-width:1247px){
